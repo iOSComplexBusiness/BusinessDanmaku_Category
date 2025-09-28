@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (BusinessDanmaku)
 
-- (UIViewController *)BusinessDanmaku_aViewController;
+- (UIViewController *)BusinessDanmaku_aViewControllerWithParams:(NSDictionary *)params;
 
 
 @end
