@@ -9,9 +9,9 @@
 
 @implementation CTMediator (BusinessDanmaku)
 
-- (UIViewController *)BusinessDanmaku_aViewController; {
+- (UIViewController *)BusinessDanmaku_aViewControllerWithParams:(NSDictionary *)params {
     
-    return [self performTarget:@"BusinessDanmaku" action:@"viewController" params:nil shouldCacheTarget:NO];
+    return [self performTarget:@"BusinessDanmaku" action:@"viewController" params:params shouldCacheTarget:NO];
 }
 
 
